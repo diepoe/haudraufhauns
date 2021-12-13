@@ -1,0 +1,37 @@
+---
+title: "My chessx setup on macOS"
+description: "How I setup my chess analyzing environment on macOS"
+layout: post
+published: 2021-09-11
+---
+
+1. Install [Homebrew](https://brew.sh/)
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+```sh
+brew analytics off
+```
+
+2. Install [chessx](https://chessx.sourceforge.io/) and the [stockfish engine](https://stockfishchess.org)
+```sh
+brew install --cask chessx
+```
+```sh
+brew install stockfish
+```
+
+3. Create a finder alias from following path on your desktop: `/usr/local/Cellar/stockfish/`
+
+4. Launch chessx and go into the preferences
+
+5. Hit `Reset`
+
+6. Now go to the preferences tab named `Engines` (in 🇩🇪: `Schachprogramme`)
+
+7. Add the stockfish executable with the finder alias you've created in step _3_
+
+8. Now you should be able to run analyzes for your chess matches with stockfish in chessx
+
+👍

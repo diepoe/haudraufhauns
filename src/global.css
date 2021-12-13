@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: FiraCode;
+    src: url(/fonts/FiraCode-Regular.ttf);
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/IBM-Plex/mono/IBMPlexMono-Regular.ttf);
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 500;
+    src: url(/fonts/IBM-Plex/mono/IBMPlexMono-Medium.ttf);
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: SyneMono;
+    font-style: normal;
+    src: url(/fonts/SyneMono-Regular.ttf);
+    font-display: swap;
+  }
+
+  .font-firacode {
+    font-family: FiraCode, monospace;
+  }
+
+  .font-ibm-plex-mono {
+    font-family: "IBM Plex Mono", monospace;
+  }
+
+  .font-syne {
+    font-family: SyneMono, monospace;
+  }
+
+  @media print {
+    a[href]:after {
+      content: " (" attr(href) ")";
+    }
+    img {
+      page-break-before: auto;
+      page-break-after: auto;
+      page-break-inside: avoid;
+    }
+    p {
+      page-break-before: auto;
+      page-break-after: auto;
+      page-break-inside: avoid;
+    }
+  }
+}
