@@ -53,7 +53,7 @@
               >
             {/each}
           </div>
-          <div class="items-center justify-center justify-self-end">
+          <div class="items-center justify-center hidden justify-self-end">
             <button
               class="right-0 flex items-center p-1 text-gray-600 rounded-lg fill-current focus:outline-none place-self-end dark:text-gray-50 hover:bg-primary-100 dark:hover:bg-gray-600"
               on:click={() => setTheme()}
@@ -136,7 +136,7 @@
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-6 h-6 text-black dark:text-white"
+              class="hidden w-6 h-6 text-black dark:text-white"
               stroke-width="2"
               stroke="currentColor"
               fill="none"
