@@ -12,7 +12,7 @@ specifiers:
   routify-plugin-frontmatter: ^1.0.1
   svelte: ^3.35.0
   svelte-preprocess: ^4.7.0
-  svelte-typewriter: ^3.0.0-alpha.5
+  svelte-typewriter: ^2.4.5
   tailwindcss: ^3.0.2
   vite: ^2.0.5
 
@@ -28,7 +28,7 @@ devDependencies:
   routify-plugin-frontmatter: 1.0.1
   svelte: 3.44.2
   svelte-preprocess: 4.10.0_postcss@8.4.5+svelte@3.44.2
-  svelte-typewriter: 3.0.0-alpha.5_svelte@3.44.2
+  svelte-typewriter: 2.4.5
   tailwindcss: 3.0.2_16a290f6d0e3717bf6d2667234aebd30
   vite: 2.7.2
 
@@ -1923,12 +1923,8 @@ packages:
       svelte: 3.44.2
     dev: true
 
-  /svelte-typewriter/3.0.0-alpha.5_svelte@3.44.2:
-    resolution: {integrity: sha512-XZKpGW8o58ruu+oXkZcZt3SnH1SpidtIi6lxWpBTczIvj0Fy+TbMOcq9UEsTpVnnyspssoBQnJm5hq8TFuCTMw==}
-    peerDependencies:
-      svelte: '>=3.28.x'
-    dependencies:
-      svelte: 3.44.2
+  /svelte-typewriter/2.4.5:
+    resolution: {integrity: sha512-ObsLgIuLkZ14noqTHf6KNZCYgL8xqoJN6S1IaTJoaMBE1pG3MaqpVorXfCn5uQcFzzThfwoGyiYvjyRFQI3fbw==}
     dev: true
 
   /svelte/3.44.2:

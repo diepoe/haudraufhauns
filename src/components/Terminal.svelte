@@ -37,7 +37,7 @@
         <span class="text-green-400">computer:~$</span>
       </Typewriter>
       <Typewriter cursor={false} interval={50} delay={4000}>
-        <p class="pl-2 typewriter-2 dark:text-gray-50">
+        <p class="pl-2 dark:text-gray-50">
           apt-get social-media
           <br />
         </p>
@@ -51,12 +51,11 @@
           <div class="flex flex-row space-y-1 md:space-x-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="text-white dark:text-white"
+              class="stroke-2 stroke-white dark:stroke-white"
               width="24"
               height="24"
               viewBox="0 0 24 24"
               stroke-width="2"
-              stroke="currentColor"
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -78,12 +77,11 @@
           <div class="flex flex-row space-y-1 md:space-x-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="text-blue-500"
+              class="stroke-2 stroke-blue-500"
               width="24"
               height="24"
               viewBox="0 0 24 24"
               stroke-width="2"
-              stroke="currentColor"
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -105,12 +103,11 @@
           <div class="flex flex-row space-y-1 md:space-x-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="text-red-500"
+              class="stroke-2 stroke-red-500"
               width="24"
               height="24"
               viewBox="0 0 24 24"
               stroke-width="2"
-              stroke="currentColor"
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
