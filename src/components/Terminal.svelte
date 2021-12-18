@@ -4,15 +4,14 @@
 
 <div class="w-full mx-2 my-4">
   <div
-    class="inverse-toggle px-5 pt-4 shadow-xl shadow-primary-200 text-gray-100 text-xs md:text-base lg:text-lg font-mono subpixel-antialiased 
-                bg-gray-800 dark:bg-gray-900 pb-6 rounded-lg leading-normal overflow-hidden"
+    class="px-5 pt-4 pb-6 overflow-hidden font-mono text-xs subpixel-antialiased leading-normal text-gray-100 bg-gray-800 rounded-lg shadow-xl inverse-toggle shadow-primary-200 md:text-base lg:text-lg dark:bg-gray-900 dark:shadow-gray-900"
   >
-    <div class="top mb-2 flex">
-      <div class="h-3 w-3 bg-red-500 rounded-full" />
-      <div class="ml-2 h-3 w-3 bg-yellow-400 rounded-full" />
-      <div class="ml-2 h-3 w-3 bg-green-500 rounded-full" />
+    <div class="flex mb-2 top">
+      <div class="w-3 h-3 bg-red-500 rounded-full" />
+      <div class="w-3 h-3 ml-2 bg-yellow-400 rounded-full" />
+      <div class="w-3 h-3 ml-2 bg-green-500 rounded-full" />
     </div>
-    <div class="mt-4 flex justify-start">
+    <div class="flex justify-start mt-4">
       <span class="text-green-400">computer:~$</span>
       <Typewriter cursor={false} interval={50}>
         <p class="pl-2 dark:text-gray-50">
@@ -23,7 +22,7 @@
         </p>
       </Typewriter>
     </div>
-    <div class="mt-4 flex justify-start">
+    <div class="flex justify-start mt-4">
       <Typewriter cursor={false} interval={15} delay={2000}>
         <p class="pl-2">
           <span class="text-yellow-300 dark:text-yellow-300"
@@ -33,7 +32,7 @@
         </p>
       </Typewriter>
     </div>
-    <div class="mt-4 flex justify-start">
+    <div class="flex justify-start mt-4">
       <Typewriter cursor={false} interval={15} delay={3000}>
         <span class="text-green-400">computer:~$</span>
       </Typewriter>
@@ -45,9 +44,9 @@
       </Typewriter>
     </div>
     <Typewriter cursor={false} interval={15} delay={6000}>
-      <div class="mt-4 flex justify-center">
+      <div class="flex justify-center mt-4">
         <div
-          class="pl-2 flex justify-center text-justify md:justify-start align-middle space-x-4 max-w-full flex-wrap"
+          class="flex flex-wrap justify-center max-w-full pl-2 space-x-4 text-justify align-middle md:justify-start"
         >
           <div class="flex flex-row space-y-1 md:space-x-1">
             <svg

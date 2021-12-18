@@ -13,7 +13,7 @@
 {#each posts as node}
   {#if node.meta.frontmatter.isDraft != true}
     <div
-      class="min-w-full p-8 mx-2 my-2 transition duration-500 ease-in-out rounded-md shadow-lg shadow-primary-200 hover:shadow-primary-300 md:py-10 md:my-6 hover:shadow-2xl hover:translate-y-2 dark:text-white dark:bg-gray-900"
+      class="min-w-full p-8 mx-2 my-2 transition duration-500 ease-in-out rounded-md shadow-lg shadow-primary-200 dark:shadow-gray-900 hover:shadow-primary-300 md:py-10 md:my-6 hover:shadow-2xl dark:hover:shadow-gray-800 hover:translate-y-2 dark:text-white dark:bg-gray-900"
     >
       <h2 class="text-xl md:text-2xl lg:text-3xl font-ibm-plex-mono">
         <a

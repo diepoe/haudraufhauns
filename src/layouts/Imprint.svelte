@@ -11,7 +11,7 @@
   {title}
 </h1>
 <div
-  class="max-w-xs prose md:prose-lg lg:prose-xl dark:text-white sm:max-w-md md:max-w-3xl lg:max-w-5xl"
+  class="max-w-xs prose md:prose-lg lg:prose-xl dark:prose-invert sm:max-w-md md:max-w-3xl lg:max-w-5xl"
 >
   <slot />
 </div>

@@ -19,7 +19,7 @@
 </h2>
 <div class="mx-2 md:mx-3 lg:mt-2 lg:mb-4 xl:mb-6">
   <div
-    class="min-w-full p-8 mx-2 my-2 transition duration-500 ease-in-out rounded-md shadow-lg md:py-10 md:my-6 hover:shadow-2xl hover:translate-y-2 dark:text-white dark:bg-gray-900 shadow-primary-300 hover:shadow-primary-400"
+    class="min-w-full p-8 mx-2 my-2 transition duration-500 ease-in-out rounded-md shadow-lg md:py-10 md:my-6 hover:shadow-2xl hover:translate-y-2 dark:text-white dark:bg-gray-900 dark:shadow-gray-900 shadow-primary-300 hover:shadow-primary-400 dark:hover:shadow-gray-800"
   >
     <h2 class="text-xl md:text-2xl lg:text-3xl font-ibm-plex-mono">
       <a
@@ -66,7 +66,7 @@
 </h2>
 <div class="grid w-full place-items-center">
   <section
-    class="grid justify-center max-w-full grid-cols-3 p-2 mx-2 bg-red-200 rounded-md lg:mx-4 lg:p-4"
+    class="grid justify-center max-w-full grid-cols-3 p-2 mx-2 bg-red-200 rounded-md dark:bg-red-500 lg:mx-4 lg:p-4"
   >
     <img
       src="/images/emoji/construction.png"
