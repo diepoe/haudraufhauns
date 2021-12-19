@@ -3,15 +3,16 @@
   import { sineIn } from "svelte/easing";
   import { darkTheme } from "./store";
   let hide = "true";
-
+  
+  var d = document.documentElement;
+  
   function setTheme() {
+    darkTheme.update((n) => !n);
     try {
-      darkTheme.update((n) => !n);
-      if (document.documentElement.classList.contains("dark")) {
-        console.log($darkTheme);
-        
+      if (d.classList.contains("dark")) {
+        d.classList.remove('dark');
       } else {
-        console.log($darkTheme);
+        d.classList.add('dark');
       }
     } catch (error) {
       console.log(error);
@@ -53,7 +54,7 @@
               >
             {/each}
           </div>
-          <div class="items-center justify-center hidden justify-self-end">
+          <div class="flex items-center justify-center justify-self-end">
             <button
               class="right-0 flex items-center p-1 text-gray-600 rounded-lg fill-current focus:outline-none place-self-end dark:text-gray-50 hover:bg-primary-100 dark:hover:bg-gray-600"
               on:click={() => setTheme()}
