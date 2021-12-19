@@ -3,16 +3,22 @@
   import { sineIn } from "svelte/easing";
   import { darkTheme } from "./store";
   let hide = "true";
-  
+
   var d = document.documentElement;
-  
+
   function setTheme() {
     darkTheme.update((n) => !n);
     try {
       if (d.classList.contains("dark")) {
-        d.classList.remove('dark');
+        d.classList.remove("dark");
+        document
+          .querySelector('meta[name="theme-color"]')
+          .setAttribute("content", "#f0f9ff");
       } else {
-        d.classList.add('dark');
+        d.classList.add("dark");
+        document
+          .querySelector('meta[name="theme-color"]')
+          .setAttribute("content", "#1F2937");
       }
     } catch (error) {
       console.log(error);
