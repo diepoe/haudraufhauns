@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer base {
+  ::selection,
+  ::-moz-selection {
+    background: #fde047;
+    color: #0f172a;
+  }
+
   @font-face {
     font-family: FiraCode;
     src: url(/fonts/FiraCode-Regular.ttf);
