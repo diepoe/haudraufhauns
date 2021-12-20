@@ -1,5 +1,6 @@
 import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
+import footnotes from 'remark-footnotes';
 
 const config = {
     disableDependencyReinclusion: ['@roxi/routify'],
@@ -11,7 +12,8 @@ const config = {
                 layout: {
                     imprint: "./src/layouts/Imprint.svelte",
                     post: "./src/layouts/Post.svelte"
-                }
+                },
+                remarkPlugins: [[footnotes]]
             })
         )
     ]

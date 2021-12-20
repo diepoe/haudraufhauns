@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
+import footnotes from 'remark-footnotes';
 
 
 export default defineConfig({
@@ -13,7 +14,8 @@ export default defineConfig({
 					layout: {
 						imprint: "./src/layouts/Imprint.svelte",
 						post: "./src/layouts/Post.svelte"
-					}
+					},
+					remarkPlugins: [[footnotes]]
 				})
 			]
 		})
